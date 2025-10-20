@@ -1,0 +1,15 @@
+h1 {
+    color: rgb(32, 0, 173);
+}
+a:link{
+    color: magenta;
+}
+a:active {
+    color: mediumaquamarine;
+}
+a:hover{
+    background-color: cadetblue;
+}
+a:visited{
+    color: rgb(172, 82, 18);
+}
