@@ -65,36 +65,36 @@ body {
 }
 
 header {
-    background-color: lightblue;
+    background-color: darkcyan;
     grid-area: header;
 }
 
 main {
-    background-color: lightcoral;
+    background-color: magenta;
     grid-area: main;
     height: 100%;
 }
 
 nav {
-    background-color: lightgreen;
+    background-color: rgb(6, 175, 6);
     grid-area: nav;
     display: flex;
     align-items: center;
 }
+.box1 { background-color: darkcyan; grid-area: box1; }
+.box2 { background-color: darkcyan; grid-area: box2; }
+.box3 { background-color: darkcyan; grid-area: box3; }
+.box4 { background-color: darkcyan; grid-area: box4; }
+.box5 { background-color: darkcyan; grid-area: box5; }
+.box6 { background-color: darkcyan; grid-area: box6; }
+.box7 { background-color: darkcyan; grid-area: box7; }
+
 
 footer {
     background-color: lightslategrey;
     grid-area: footer;
 }
 
-
-.box1 { background-color: gray; grid-area: box1; }
-.box2 { background-color: gray; grid-area: box2; }
-.box3 { background-color: gray; grid-area: box3; }
-.box4 { background-color: gray; grid-area: box4; }
-.box5 { background-color: gray; grid-area: box5; }
-.box6 { background-color: gray; grid-area: box6; }
-.box7 { background-color: gray; grid-area: box7; }
 
 
 .page-header {
@@ -165,6 +165,10 @@ img {
     background-color: white;
     border-radius: 10px;
     cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
 }
 
 
