@@ -1,0 +1,41 @@
+:root {
+  --color1: #d8c8bc;
+  --color2: #cac5a1;
+  --color3: #283c64;
+  --color4: #305c68;
+  --color5: #376d71;
+}
+
+div#wraper{
+    background-color: var(--color1);
+    width: 100%;
+    max-width: 1440px;
+    min-width: 800px;
+    margin: 0 auto;
+}
+header{
+    background-color: var(--color3);
+    height: 400px;
+}
+nav{
+    background-color: var(--color4);
+    width: 20%;
+    height: 400px;
+    float: left;
+}
+main{
+    background-color: var(--color5);
+    width: 80%;
+    height: 800px;
+    float: right;
+}
+
+footer{
+    background-color: var(--color2);
+    height: 400px;
+    clear: both;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}

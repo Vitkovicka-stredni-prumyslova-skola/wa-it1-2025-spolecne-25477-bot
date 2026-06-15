@@ -1,0 +1,19 @@
+div#bebr {
+    width: 500px;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(233, 233, 233);
+    background-color: rgb(243, 243, 243);
+    margin-left: 250px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 0;
+}
+div#omn {
+    position: fixed 100px;
+    width: 200px;
+}
+pre {
+    display: inline;
+    font-size: 20px;
+}
